@@ -24,7 +24,7 @@ Projekt został zrealizowany jako zaliczenie z przedmiotu Systemy wbudowane. Gł
 ### Zrealizowany układ
 ![Kompletny zestaw SimRacing](Images/full_setup.jpg)
 
-### Baza i Kierownica
+### Baza i kierownica
 Baza Direct Drive oparta na silniku z hoverboardu oraz kierownica bezprzewodowa.
 ![Baza Direct Drive](Images/direct_drive.jpg)
 ![Kierownica DIY](Images/wheel.jpg)
@@ -52,7 +52,7 @@ Widoczna konstrukcja mechaniczna pedałów gazu i hamulca z tensometrem.
 ### 3. Manipulatory nożne
 * **Komunikacja:** Przewodowa dla zapewnienia minimalnych opóźnień.
 * **Gaz:** Oparty na precyzyjnym potencjometrze.
-* **Hamulec (Load Cell):** Wykorzystuje belkę tensometryczną (120kg) oraz wzmacniacz HX711. Pozwala to na sterowanie siłą nacisku, co symuluje hydrauliczny układ hamulcowy i pozwala budować pamięć mięśniową.
+* **Hamulec (load cell):** Wykorzystuje belkę tensometryczną (120kg) oraz wzmacniacz HX711. Pozwala to na sterowanie siłą nacisku, co symuluje hydrauliczny układ hamulcowy i pozwala budować pamięć mięśniową.
 * **Software:** Zaimplementowana filtracja sygnału, kalibracja oraz martwe strefy eliminujące szumy.
 
 ## Specyfikacja Sprzętowa
@@ -66,12 +66,12 @@ Widoczna konstrukcja mechaniczna pedałów gazu i hamulca z tensometrem.
 ### Kierownica
 * **Mikrokontroler:** ESP32-S3-NANO 
 * **Zasilanie:** Stabilizator TPS63020, Moduł ładowania TP4056, Akumulator Li-Ion 
-* **Przyciski:** 14 programowalnych przycisków 
+* **Przyciski:** 12 przycisków + 2 mikroprzełączniki
 
 ### Manipulatory nożne
 * **Mikrokontroler:** ESP32-S3-NANO 
-* **Czujnik Hamulca:** Belka tensometryczna 120kg + Wzmacniacz HX711 
-* **Czujnik Gazu:** Potencjometr liniowy 
+* **Czujnik hamulca:** Belka tensometryczna 120kg + Wzmacniacz HX711 
+* **Czujnik gazu:** Potencjometr liniowy 
 
 ## Technologie i biblioteki
 Projekt oprogramowania został napisany z wykorzystaniem:
@@ -120,18 +120,18 @@ Mechanical construction of throttle and load cell brake pedals .
 * **Motor:** Used a brushless motor salvaged from a hoverboard, generating approx. 15Nm of torque.
 * **Control:** Based on the MKS XDRIVE mini controller integrated with the motor driver.
 * **Encoder:** Magnetic MT6701 mounted on the rotation axis for precise position reading.
-* **Cooling and Housing:** Project open to modifications (3D printed elements).
+* **Cooling and housing:** Project open to modifications (3D printed elements).
 
 ### 2. Steering Wheel
 * **Communication:** Bluetooth Low Energy (BLE) - no tangling cables during rotation.
 * **Interface:** 14 programmable functional buttons.
 * **Signaling:** LEDs indicating connection and pairing status.
-* **Power Supply:** Li-Ion battery with TP4056 charging module.
+* **Power supply:** Li-Ion battery with TP4056 charging module.
 
 ### 3. Pedals
 * **Communication:** Wired (USB) to ensure minimal latency.
 * **Throttle:** Based on a precise potentiometer.
-* **Brake (Load Cell):** Uses a load cell (120kg) and HX711 amplifier. This allows control via pressure force, simulating a hydraulic braking system and enabling muscle memory building.
+* **Brake (load cell):** Uses a load cell (120kg) and HX711 amplifier. This allows control via pressure force, simulating a hydraulic braking system and enabling muscle memory building.
 * **Software:** Implemented signal filtering, calibration, and deadzones to eliminate noise.
 
 ## Hardware Specification
@@ -140,17 +140,17 @@ Mechanical construction of throttle and load cell brake pedals .
 * **Motor:** Hoverboard motor (approx. 15Nm) 
 * **Controller:** MKS Xdrive mini 
 * **Encoder:** MT6701 
-* **Power Supply:** 24V 20.8A (500W) 
+* **Power supply:** 24V 20.8A (500W) 
 
 ### Steering Wheel
 * **Microcontroller:** ESP32-S3-NANO 
-* **Power:** TPS63020 Regulator, TP4056 Charger, Li-Ion Battery 
-* **Buttons:** 14x Tactile Switch 
+* **Power:** TPS63020 regulator, TP4056 charger, Li-Ion battery 
+* **Buttons:** 12x tactile switch + 2 micro switch
 
 ### Pedals
 * **Microcontroller:** ESP32-S3-NANO 
-* **Brake Sensor:** Load Cell 120kg + HX711 Amplifier 
-* **Throttle Sensor:** Linear Potentiometer 
+* **Brake sensor:** load cell 120kg + HX711 Amplifier 
+* **Throttle sensor:** linear potentiometer 
 
 ## Technologies and Libraries
 The software was written using:
