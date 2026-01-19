@@ -6,7 +6,7 @@
 ---
 
 ### Language / Język
-* [PL Polski (Polish)](#-zestaw-do-simracingu)
+* [PL Polski](#-zestaw-do-simracingu)
 * [EN English](#-sim-racing-set)
 
 ---
@@ -22,7 +22,7 @@ Projekt został zrealizowany jako zaliczenie z przedmiotu Systemy wbudowane. Gł
 ## Galeria
 
 ### Zrealizowany układ
-![Kompletny zestaw SimRacing](Images/full_set.jpg)
+![Kompletny zestaw SimRacing](Images/full_setup.jpg)
 
 ### Baza i Kierownica
 Baza Direct Drive oparta na silniku z hoverboardu oraz kierownica bezprzewodowa.
@@ -101,7 +101,7 @@ The project was realized as a final assignment for the Embedded Systems course. 
 ## Gallery
 
 ### Full Setup
-![Full SimRacing Setup](Images/full_set.jpg)
+![Full SimRacing Setup](Images/full_setup.jpg)
 
 ### Base & Wheel
 Direct Drive base powered by a hoverboard motor and a custom wireless wheel.
