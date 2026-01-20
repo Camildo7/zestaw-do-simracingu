@@ -158,6 +158,7 @@ The software was written using:
 * **BleGamepad** - Bluetooth communication support for the steering wheel.
 * **HX711** - load cell support.
 
+
 ## Inspirations and Credits
 
 This project was based on the analysis of existing Open Source and DIY solutions.
